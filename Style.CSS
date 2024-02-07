@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-align: center;
+    background-color: #d4d4d4;
+}
+
+#form-head {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    /* text-decoration: underline; */
+}
+
+#user-info-form {
+    /* border: 2px solid black; */
+    width: 50rem;
+    height: 40rem;
+    display: inline-block;
+    position: relative;
+    left: 0.4%;
+    top:4vw;
+    background-color: #ffff;
+    /* margin: 0%; */
+    box-sizing: border-box;
+    /* display: flex; */
+    /* flex-wrap: nowrap;   */
+}
+
+.info-sec {
+    width: 40rem;
+    height: 30px;
+}
+
+.info-sec:hover {
+    border: 2px solid #efc492;
+}
+
+.info-sec:target {
+    border: 2px solid #efc492;
+}
+
+.form-para {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+/* City Section Styling  */
+#city-sec {
+    position: relative;
+    display: inline;
+    right: 19%;
+}
+
+#city-select {
+    width: 5rem;
+    height: 2rem;
+}
+#city-select:hover{
+    border: 2px solid #efc492;
+}
+
+
+/* DOB Styling  */
+
+.DOB{
+    width: 6rem;
+    height: 2rem;
+}
+.DOB:hover{
+    border: 2px solid #efc492;
+}
+
+/* Gender Section Styling  */
+#gender-sec{
+    position: relative;
+    display: inline;
+    right: 30%;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Profile-Pic div  */
+#Profile-Pic{
+    position: relative;
+    display: inline;
+    right: 23%;
+}
+
+/* Submit button Styling  */
+#submit-button{
+       height: 7%;
+       width: 100%;
+       text-align: center;
+       border: none;
+       text-align:center;
+       font-size: 18px;
+       background-color:#efc492;
+       color: #ffff;
+}

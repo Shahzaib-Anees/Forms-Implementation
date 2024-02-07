@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="StyleSheet" href="Style.CSS">
+</head>
+
+<body>
+    <form id="user-info-form">
+        <h1 id="form-head">User Registration Form</h1>
+        <p class="form-para">First Name:</p>
+        <input type="text" class="info-sec" minlength="3" maxlength="100" name="FirstName"
+            placeholder="Please enter your First Name" required /><br>
+        <p class="form-para">Last Name:</p>
+        <input type="text" minlength="3" class="info-sec" maxlength="100" name="LastName"
+            placeholder="Please enter your Last Name" required /><br>
+        <p class="form-para">Email Add:</p>
+        <input type="email" minlength="3" class="info-sec" maxlength="100" name="email"
+            placeholder="Please enter a valid email address" required /><br>
+        <p class="form-para">Residence:</p>
+        <input type="text" minlength="3" class="info-sec" maxlength="1000" name="address"
+            placeholder="Please enter your Residential Address" required /><br>
+        <p class="form-para"> Phone No:</p>
+        <input type="tel" minlength="3" class="info-sec" maxlength="11" name="email"
+            placeholder="Please enter your Contact Number" required /><br>
+        <div id="city-sec">
+            <p class="form-para">City:</p>
+            <select id="city-select" required>
+                <option value="Karachi">Karachi</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Multan">Hyderabad</option>
+                <option value="Multan">Gilgit Baltistan</option>
+                <option value="Multan">Balochistan</option>
+            </select>
+        </div>
+        <p class="form-para">Date of Birth:</p>
+        <input type="date" name="DOB" class="DOB" placeholder="Please enter a valid email address:" required /><br>
+        <br>
+        <div id="gender-sec">
+            <p style="font-size: 18px;font-weight:500; display: inline;">Please select correct Gender</p>
+            <!-- <p class="form-para">Gender</p> -->
+            <br>
+            <input type="radio" required name="Gender" />Male
+            <input type="radio" name="Gender" />Female
+        </div>
+        <br>
+        <div id="Profile-Pic">
+            <p class="form-para">Profile Picture</p>
+            <input type="file" name="Profile-Picture" accept="image/*" /><br>
+        </div>
+        <input type="submit" name="submit" placeholder="Submit" id="submit-button"/>
+       <p>If you already have account <a href="./Log In/">Click here</a> to Log in</p>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-align: center;
+    background-color: #ffff;
+}
+
+#login-form {
+    position: relative;
+    top: 4rem;
+    border: 2px solid rgb(243, 237, 237);
+    width: 30rem;
+    height: 40rem;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    left: 0.4%;
+    background-color: #fefefe;
+    /* box-sizing: border-box; */
+}
+
+.user-sec {
+    margin-right: 2%;
+    display: inline-block;
+    position: relative;
+    left: 2%;
+    margin-bottom: 0%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.input-sec {
+    /* text-align: center; */
+    display: block;
+    width: 28rem;
+    background-color: #fefefe;
+    border: none;
+    border-bottom: 2px solid rgb(243, 237, 237);
+    border-top: 2px solid rgb(243, 242, 242);
+    position: relative;
+    left: 2%;
+    height: 30px;
+    padding-right: 2%;
+}
+
+#forgot-para {
+    text-align: right;
+    margin-right: 1%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#login-button {
+    height: 6%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin-top: 6%;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #efc492;
+    color: #ffff;
+}
+
+#signup-para {
+    position: relative;
+    display: block;
+    top: 7%;
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.img-signup {
+    height: 7rem;
+    width: 20rem;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0%;
+}
+
+/* Facebook Logo  */
+#fb-logo {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    border-radius: 50%;
+    left: 23%;
+    padding: 2px, 4px, 3px, 0px;
+}
+
+/* Twitter logo  */
+#tw-logo {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    border-radius: 50%;
+    left: 25%;
+    padding: 2px, 4px, 3px, 0px;
+}
+
+/* Google Logo  */
+#ch-logo {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    border-radius: 50%;
+    left: 27%;
+    padding: 2px, 4px, 3px, 0px;
+}
